@@ -1,30 +1,16 @@
- # Automated File Organizer - CODTECH Task 1
+# CODTECH Task 2 - Web Scraper
 
-This Python project automatically organizes files in Downloads folder based on file type.
+**Name:** Satya Kuracha  
+**Domain:** Python Programming  
+**Task:** Web Scraper using BeautifulSoup
 
-## Features
-- Organizes Images, Documents, Videos, Music, Programs, Archives
-- Creates folders automatically if not exist
-- Moves unknown files to 'Others' folder
-- Shows total count of files organized
-
-## Technologies Used
-- **Python** - Programming language
-- **os module** - For folder operations like makedirs, listdir, path
-- **shutil module** - For moving files using shutil.move
+## Description
+This Python script scrapes top 10 news headlines from BBC News website using requests and BeautifulSoup libraries.
 
 ## How to Run
-1. Change "source_folder"path in main.py to your folder path
-2. Run: `python main.py`
+1. Open `main.py` in Google Colab
+2. Run all cells
+3. View scraped headlines output
 
-## Output Example
-Organizing folder: C:/Users/satya/Downloads
-Total files found: 8
-Moved: desktop.ini → Others
-Moved: python-manager-26.2.msix → Programs
-
-## Project Flow
-Files → Python Script → Detect File Type → Move to Respective Folder
-
-## Author
-Satya - CODTECH Internship Task 1
+## Output
+The script prints top 10 BBC News headlines with numbering.
